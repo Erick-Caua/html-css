@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Viddeos e Links</title>
     <link rel="shortcut icon" href="imagens/favicon.ico.png" type="image/x-icon">
     <style>
-        body{
+        body {
             background-color: black;
+            padding: 40px;
         }
-        h1{
+
+        main {
+            background-color: white;
+            padding: 30px;
+            position: relative;
+            width: 80vw;
+        }
+
+        main>ul {
+            columns: 2;
+            list-style-type: none;
+        }
+        li{
+            padding: 30px;
+        }
+        h1 {
             color: white;
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
-    
-    <h1>Vídeos legais para assistir</h1>
-    <a href="cursohtml.html"><img src="imagens/thumb-html.png" alt="thumb-html"></a>
-    <a href="cursojs.html"><img src="imagens/thumb-js.png" alt="thumb-js"></a><br>
-    <a href="cursohardware.html"><img src="imagens/thumb-hardware.png" alt="thumb-hardware"></a>
-    <a href="cursopython.html"><img src="imagens/thumb-python.png" alt="thumb-python"></a>
-   
+    <header>
+        <h1>Vídeos legais para assistir</h1>
+    </header>
+    <main>
+
+        <ul>
+            <li><a href="cursohtml.html"><img src="imagens/thumb-html.png" alt="thumb-html"></a></li>
+            <li><a href="cursojs.html"><img src="imagens/thumb-js.png" alt="thumb-js"></a></li>
+            <li><a href="cursohardware.html"><img src="imagens/thumb-hardware.png" alt="thumb-hardware"></a></li>
+            <li><a href="cursopython.html"><img src="imagens/thumb-python.png" alt="thumb-python"></a></li>
+        </ul>
+    </main>
+
 
 </body>
+
 </html>
